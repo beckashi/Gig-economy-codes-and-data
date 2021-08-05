@@ -1,1 +1,10 @@
-task1,2,3,4 are codes for the four tasks finished in last two weeks.
+task1,2,3,4 are latest version codes for the four tasks finished in last two weeks.
+Data is under collected-data branch.
+
+#Week 2
+1 Supply (number of available e scooters) of each service in each city across time 
+2 Most popular service in each city in terms of supply
+#week 3
+3 Most famous neighborhoods in each city in terms of supply
+Week# 4
+4 The number of scooter trips recorded in each city
