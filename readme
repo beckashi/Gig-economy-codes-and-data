@@ -1,10 +1,16 @@
-task1,2,3,4 are latest version codes for the four tasks finished in last two weeks.
-Data is under collected-data branch.
+task1,2,3,4,5 are latest version codes for the five tasks finished in last four weeks.
+Data is under collected-data branch and collected data may not be complete due to time.
 
 #Week 2
-1 Supply (number of available e scooters) of each service in each city across time 
-2 Most popular service in each city in terms of supply
+Supply (number of available e scooters) of each service in each city across time 
+Most popular service in each city in terms of supply
+
 #week 3
-3 Most famous neighborhoods in each city in terms of supply
+Most famous neighborhoods in each city in terms of supply
+
 Week# 4
-4 The number of scooter trips recorded in each city
+The number of scooter trips recorded in each city
+
+Week#5
+Average trip time and trip distance for each service in each neighborhood for each day of the experiment 
+
