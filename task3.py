@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import csv
 import sys
 import datetime
@@ -59,14 +58,9 @@ from collections import Counter
 data = json.load(open('Brussels.geojson'))
 data = data["features"]
 
-#services = ['Bird', 'Circ', 'Jump', 'Lime', 'LyftScooter', 'Movo', 'Scoot', 'Skip', 'Spin', 'Tier', 'Voi', 'Wind']
-#citys = ['DC', 'Detroit', 'Lisbon', 'Madrid', 'MexicoCity', 'Paris', 'SanFrancisco', 'TelAviv', 'Zurich' ]
 citys=['Brussels']
 dpath = 'E:/P1'
 list1=[]
-# full_path = os.path.realpath(__file__)
-# dpath, realfilename = os.path.split(full_path)
-#city='Detroit'
 
 for city in citys:
 
@@ -89,7 +83,7 @@ for city in citys:
         date2num_of_scotter_in_use = {}
 
         if '.txt' in txtFile and 'lock' not in txtFile:
-            f = open(txtFile, 'r',encoding='utf-8', errors='ignore')#encoding='utf-8', errors='ignore'
+            f = open(txtFile, 'r',encoding='utf-8', errors='ignore')
 
             dataDictionary = f.read()
             f.close()
@@ -129,7 +123,6 @@ for city in citys:
                     coordinateTemp = Point(coordinate[1], coordinate[0])
                     geom = asShape(polygon["geometry"])
                     # Point(LONGITUDE, LATITUDE)
-
                     # x, y = geom.centroid.x, geom.centroid.y
                     # coordinate= Point((x,y))
 
