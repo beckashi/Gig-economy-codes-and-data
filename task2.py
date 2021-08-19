@@ -85,5 +85,4 @@ for city in citys:
 
             list1.append(len(scooterIDS))
             s = sum(list1)
-            #print(list1)
             print(s)
