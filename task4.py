@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import csv
 import sys
 import datetime
@@ -53,13 +52,8 @@ import statistics
 import shutil, os
 import re
 
-# services = ['Bird', 'Circ', 'Jump', 'Lime', 'LyftScooter', 'Movo', 'Scoot', 'Skip', 'Spin', 'Tier', 'Voi', 'Wind']
-# citys = ['DC', 'Detroit', 'Lisbon', 'Madrid', 'MexicoCity', 'Paris', 'SanFrancisco', 'TelAviv', 'Zurich' ]
 citys=['Brussels']
-# service = 'Tier2019-10-30'
 dpath = 'E:/P3'
-# full_path = os.path.realpath(__file__)
-# dpath, realfilename = os.path.split(full_path)
 sumtime = 0
 
 coordinatesDict = {}
@@ -144,12 +138,11 @@ for city in citys:
                                 # scooter company(services)
                                 dictElement['company'] = service
                                 # scooter id
-                                dictElement['scooterid'] = id # MS
+                                dictElement['scooterid'] = id 
 
                                 tripsDictionary.append(dictElement)
                                 print(tripsDictionary)
 
-                                # averagetripdistance =
                                 f.close()
                     currentlocation = location
                     previousEpoch = epoch
